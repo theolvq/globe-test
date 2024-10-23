@@ -26,10 +26,10 @@ export function CitySelector({ onCitySelect }: CitySelectorProps) {
   }
 
   return (
-    <div className='my-4'>
+    <div className='my-4 w-52 mx-auto'>
       <label
         htmlFor='city-select'
-        className='block mb-2 text-sm font-medium text-gray-900'
+        className='block mb-2 text-sm font-medium text-gray-100'
       >
         Select a city:
       </label>
